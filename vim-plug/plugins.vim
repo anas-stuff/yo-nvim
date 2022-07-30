@@ -24,5 +24,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'    
+    " Discord stuff
+    Plug 'andweeb/presence.nvim'    
+
 
 call plug#end()
