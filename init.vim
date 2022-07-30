@@ -7,3 +7,4 @@ source $HOME/.config/nvim/plug-config/airline.vim
 source $HOME/.config/nvim/plug-config/presence.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
+luafile $HOME/.config/nvim/lua/plug-colorizer.lua

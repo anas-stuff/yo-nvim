@@ -19,6 +19,7 @@
 - [fzf](https://github.com/junegunn/fzf) A command-line fuzzy finder
 - [fzf.vim](https://github.com/junegunn/fzf.vim) fzf ❤ vim
 - [vim-rooter](https://github.com/airblade/vim-rooter) Changes Vim working directory to project root.
+- [nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua) The fastest Neovim colorizer.
 
 
 > The plugins list in [vim-plug/plugins.vim](./vim-plug/plugins.vim),
