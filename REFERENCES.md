@@ -4,4 +4,6 @@
 - [Integrate Neovim with FZF & more](https://www.chrisatmachine.com/blog/category/neovim/08-fzf)
 - [coc.vim wike](https://github.com/neoclide/coc.nvim/wiki)
 - [Adding color with colorizer & rainbow](https://www.chrisatmachine.com/blog/category/neovim/10-adding-color)
+- [Project Management with Startify](https://www.chrisatmachine.com/blog/category/neovim/11-startify)
+- [yo-nvim ascii art](http://patorjk.com/software/taag/#p=display&h=2&f=Big%20Money-nw&t=yo-nvim)
 

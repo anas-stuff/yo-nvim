@@ -20,6 +20,7 @@
 - [fzf.vim](https://github.com/junegunn/fzf.vim) fzf ❤ vim
 - [vim-rooter](https://github.com/airblade/vim-rooter) Changes Vim working directory to project root.
 - [nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua) The fastest Neovim colorizer.
+- [vim-startify](https://github.com/mhinz/vim-startify) The fancy start screen for Vim.
 
 
 > The plugins list in [vim-plug/plugins.vim](./vim-plug/plugins.vim),
