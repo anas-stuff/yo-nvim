@@ -15,6 +15,7 @@
 - [vim-airline](https://github.com/vim-airline/vim-airline) lean & mean status/tabline for vim that's light as air
 - [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes) A collection of themes for vim-airline
 - [presence.nvim](https://github.com/andweeb/presence.nvim) Discord Rich Presence for Neovim.
+- [rnvimr](https://github.com/kevinhwang91/rnvimr)
 
 > The plugins list in [vim-plug/plugins.vim](./vim-plug/plugins.vim),
 > and the plugns configs in [plug-config](./plug-config) directory.
