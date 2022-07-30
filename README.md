@@ -15,7 +15,11 @@
 - [vim-airline](https://github.com/vim-airline/vim-airline) lean & mean status/tabline for vim that's light as air
 - [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes) A collection of themes for vim-airline
 - [presence.nvim](https://github.com/andweeb/presence.nvim) Discord Rich Presence for Neovim.
-- [rnvimr](https://github.com/kevinhwang91/rnvimr)
+- [rnvimr](https://github.com/kevinhwang91/rnvimr) Make Ranger running in a floating window to communicate with Neovim via RPC
+- [fzf](https://github.com/junegunn/fzf) A command-line fuzzy finder
+- [fzf.vim](https://github.com/junegunn/fzf.vim) fzf ❤ vim
+- [vim-rooter](https://github.com/airblade/vim-rooter) Changes Vim working directory to project root.
+
 
 > The plugins list in [vim-plug/plugins.vim](./vim-plug/plugins.vim),
 > and the plugns configs in [plug-config](./plug-config) directory.
@@ -41,4 +45,9 @@
 | ctrl + j          | `<C-w>j`                   | Navigate to the bottom window        |
 | leader + o        | `o<Esc>^Da` or `O<Esc>^Da` | Open fuzzy finedr                    |
 | leader + r        | `:RnvimrToggle`            | Open ranger                          |
+| ctrl + f          | `:Files`                   | Open Files fuzzy finder              |
+| leader + b        | `:Buffers`                 | Open buffers fuzzy finder            |
+| leader + g        | `:Rg`                      | Open Ripgrep fuzzy finder            |
+| leader + t        | `:Tags`                    | Open tags fuzzy finder               |
+| leader + m        | `:Marks`                   | Open marks fuzzy finder              |
 

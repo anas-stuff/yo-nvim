@@ -6,3 +6,4 @@ source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/airline.vim
 source $HOME/.config/nvim/plug-config/presence.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
+source $HOME/.config/nvim/plug-config/fzf.vim

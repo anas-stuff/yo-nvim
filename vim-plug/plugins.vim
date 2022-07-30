@@ -28,5 +28,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'andweeb/presence.nvim'    
     " Ranger
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    " Fzf
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'
 
 call plug#end()
