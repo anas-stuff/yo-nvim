@@ -5,3 +5,4 @@ source $HOME/.config/nvim/themes/onedark.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/airline.vim
 source $HOME/.config/nvim/plug-config/presence.vim
+source $HOME/.config/nvim/plug-config/rnvimr.vim

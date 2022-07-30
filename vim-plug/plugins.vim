@@ -26,6 +26,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'    
     " Discord stuff
     Plug 'andweeb/presence.nvim'    
-
+    " Ranger
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
 call plug#end()

@@ -16,7 +16,7 @@
 - [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes) A collection of themes for vim-airline
 - [presence.nvim](https://github.com/andweeb/presence.nvim) Discord Rich Presence for Neovim.
 
-> The plugins list in [vim-plug/plugins.vim](./vim-plug/plugins.vim), 
+> The plugins list in [vim-plug/plugins.vim](./vim-plug/plugins.vim),
 > and the plugns configs in [plug-config](./plug-config) directory.
 
 ## Keybindings
@@ -39,3 +39,5 @@
 | ctrl + k          | `<C-w>k`                   | Navigate to the top window           |
 | ctrl + j          | `<C-w>j`                   | Navigate to the bottom window        |
 | leader + o        | `o<Esc>^Da` or `O<Esc>^Da` | Open fuzzy finedr                    |
+| leader + r        | `:RnvimrToggle`            | Open ranger                          |
+
