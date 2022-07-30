@@ -19,5 +19,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Themes
     Plug 'joshdick/onedark.vim'    
     Plug 'arcticicestudio/nord-vim'
+    " Intelliseense
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
