@@ -16,5 +16,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " WakaTime
     Plug 'wakatime/vim-wakatime'
+    " Themes
+    Plug 'joshdick/onedark.vim'    
 
 call plug#end()
