@@ -51,4 +51,6 @@
 | leader + g        | `:Rg`                      | Open Ripgrep fuzzy finder            |
 | leader + t        | `:Tags`                    | Open tags fuzzy finder               |
 | leader + m        | `:Marks`                   | Open marks fuzzy finder              |
+| gf                | n/a                        | Open the hover symlink               |
+| ctrl + o          | n/a                        | Restory the buffers                  |
 
