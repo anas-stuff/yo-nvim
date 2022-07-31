@@ -26,6 +26,7 @@
 - [vim-rhubarb](https://github.com/tpope/vim-rhubarb) rhubarb.vim: GitHub extension for fugitive.vim
 - [gv.vim](https://github.com/junegunn/gv.vim) A git commit browser in Vim
 - [quick-scope](https://github.com/unblevable/quick-scope) Lightning fast left-right movement in Vim
+- [vim-which-key](https://github.com/liuchengxu/vim-which-key) Vim plugin that shows keybindings in popup
 
 
 
