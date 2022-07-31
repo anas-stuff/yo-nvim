@@ -106,11 +106,33 @@ let g:which_key_map.b = {
             \ '?' : [ 'Buffers',                'fzf-buffers' ],
             \ }
 
+" g is for git
+let g:which_key_map.g = {
+            \ 'name' : '+git',
+            \ 'a' : [ ':Git add .',                   'add all files' ],
+            \ 'A' : [ ':Git add %',                   'add current file (%)' ],
+            \ 'b' : [ ':Git blame',                   'git blame' ],
+            \ 'B' : [ ':GBrowse',                     'open repo in browser' ],
+            \ 'c' : [ ':Git commit',                  'commit changes' ],
+            \ 'C' : [ ':Git commit -a',               'add and commit' ],
+            \ 'd' : [ ':Git diff',                    'git diff' ],
+            \ 'D' : [ ':Gdiffsplit',                  'git diff split' ],
+            \ 'g' : [ ':GGrep',                       'GGrep' ],
+            \ 'l' : [ ':GlLog',                       'git log' ],
+            \ 'L' : [ ':Git log',                     'normal git log' ],
+            \ 'f' : [ ':GitFiles',                    'git files' ],
+            \ 'p' : [ ':Git push',                    'git push' ],
+            \ 'P' : [ ':Git pull',                    'git pull' ],
+            \ 'r' : [ ':GRemove',                     'GRemove' ],
+            \ 'v' : [ ':GV',                          'git commits graph' ],
+            \ 'V' : [ ':GV!',                         'git commits graph for current file only' ],
+            \ }
+
 " l is for language server protocole
 let g:which_key_map.l = {
             \ 'name' : '+lsp',
             \ '.' : [':CocConfig'                             , 'config file'],
-            \ ';' : ['<Plug>',                                , ''],
+            \ ';' : ['<Plug>',                                , 'test'],
             \ }
 
 " Register which key map
