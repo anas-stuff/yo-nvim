@@ -7,4 +7,5 @@
 - [Project Management with Startify](https://www.chrisatmachine.com/blog/category/neovim/11-startify)
 - [yo-nvim ascii art](http://patorjk.com/software/taag/#p=display&h=2&f=Big%20Money-nw&t=yo-nvim)
 - [Git integration](https://www.chrisatmachine.com/blog/category/neovim/12-git-integration)
+- [Quickscope](https://www.chrisatmachine.com/blog/category/neovim/14-quickscope)
 

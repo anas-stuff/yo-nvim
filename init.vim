@@ -9,5 +9,6 @@ source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/startify.vim
 source $HOME/.config/nvim/plug-config/signify.vim
+source $HOME/.config/nvim/plug-config/quick-scope.vim
 
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
