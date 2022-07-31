@@ -12,3 +12,4 @@
 - [Which Key](https://www.chrisatmachine.com/blog/category/neovim/15-which-key)
 - [Floaterm](https://www.chrisatmachine.com/blog/category/neovim/16-floaterm)
 - [Codi - An Interactive Scratchpad for Hackers](https://www.chrisatmachine.com/blog/category/neovim/18-codi)
+- [Discovering extensions with coc-marketplace](https://www.chrisatmachine.com/blog/category/neovim/19-coc-marketplace)
