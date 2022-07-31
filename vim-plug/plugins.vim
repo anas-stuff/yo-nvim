@@ -49,5 +49,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'voldikss/vim-floaterm'
     " Codi
     " Plug 'metakirby5/codi.vim'
+    " xcode colors
+    Plug 'arzg/vim-colors-xcode'
 call plug#end()
 
