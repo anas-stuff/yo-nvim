@@ -21,6 +21,11 @@
 - [vim-rooter](https://github.com/airblade/vim-rooter) Changes Vim working directory to project root.
 - [nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua) The fastest Neovim colorizer.
 - [vim-startify](https://github.com/mhinz/vim-startify) The fancy start screen for Vim.
+- [vim-signify](https://github.com/mhinz/vim-signify) Show a diff using Vim its sign column.
+- [vim-fugitive](https://github.com/tpope/vim-fugitive) fugitive.vim: A Git wrapper so awesome, it should be illegal
+- [vim-rhubarb](https://github.com/tpope/vim-rhubarb) rhubarb.vim: GitHub extension for fugitive.vim
+- [gv.vim](https://github.com/junegunn/gv.vim) A git commit browser in Vim
+
 
 
 > The plugins list in [vim-plug/plugins.vim](./vim-plug/plugins.vim),
@@ -36,7 +41,7 @@
 | alt + l           | `:vertical resize +2`     | Increase the window size vertically   |
 | jk or kj  (fast)  | `<Esc>`                   | Escape                                |
 | ctrl + u          | `<ESC>viwUi` or `viwU<Esc>` |  Cap and uncap (Easy CAPS)          |
-| TAB               | `:bnext`                   | Move to the nexit buffer             |
+| TAB               | `:bnext`                   | Move to the next buffer             |
 | Shift + TAB       | `:bprevious`               | Move to the previous buffer          |
 | ctrl + s          | `:w`                       | Write the changes (save)             |
 | ctrl + q          | `:wq!`                     | Write the changes and quit           |
@@ -54,4 +59,6 @@
 | leader + m        | `:Marks`                   | Open marks fuzzy finder              |
 | gf                | n/a                        | Open the hover symlink               |
 | ctrl + o          | n/a                        | Restory the buffers                  |
+| leader + gj       | `<plug>(signify-next-hunk)`| Jump to the next hunk                |
+| leader + gk       | `<plug>(signify-prev-hunk)`| Jump to the previous hunk            |
 
