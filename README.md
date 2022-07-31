@@ -29,6 +29,7 @@
 - [vim-which-key](https://github.com/liuchengxu/vim-which-key) Vim plugin that shows keybindings in popup
 - [vim-floaterm](https://github.com/voldikss/vim-floaterm)
 - [vim-colors-xcode](https://github.com/arzg/vim-colors-xcode) Xcode 11’s dark and light colourschemes for Vim
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) Nvim Treesitter configurations and abstraction layer
 
 > The plugins list in [vim-plug/plugins.vim](./vim-plug/plugins.vim),
 > and the plugns configs in [plug-config](./plug-config) directory.
