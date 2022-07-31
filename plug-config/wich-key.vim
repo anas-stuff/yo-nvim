@@ -131,8 +131,14 @@ let g:which_key_map.g = {
 " l is for language server protocole
 let g:which_key_map.l = {
             \ 'name' : '+lsp',
-            \ '.' : [':CocConfig'                             , 'config file'],
-            \ ';' : ['<Plug>',                                , 'test'],
+            \ '.' : [ ':CocConfig',                               'config file'],
+            \ ';' : [ '<Plug>(coc-refactor)',                     'refactor' ],
+            \ 'c' : [ ':CocList commands',                         'commands list' ],
+            \ 'd' : [ '<Plug>(coc-definition)',                   'go to the definition' ],
+            \ 'D' : [ '<Plug>(coc-declaration)',                  'go to the declaration' ],
+            \ 'e' : [ ':CocList extensions',                      'extensions list' ],
+            \ 'f' : [ '<Plug>(coc-format-selected)',              'format the selected code' ],
+            \ 'F' : [ '<Plug>(coc-format)',                       'format the file' ],
             \ }
 
 " Register which key map
