@@ -24,15 +24,17 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
   \| autocmd BufLeave <buffer> set laststatus=2 noshowmode ruler
 
 " Single mappings
-let g:which_key_map['/'] = [ '<Plug>NERDCommenterToggle'  , 'comment' ]
-let g:which_key_map['e'] = [ ':CocCommand explorer'       , 'explorer' ]
-let g:which_key_map['f'] = [ ':Files'                     , 'search files' ]
-let g:which_key_map['h'] = [ '<C-W>s'                     , 'split below']
-let g:which_key_map['r'] = [ ':Ranger'                    , 'ranger' ]
-let g:which_key_map['S'] = [ ':Startify'                  , 'start screen' ]
-let g:which_key_map['T'] = [ ':Rg'                        , 'search text' ]
-let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
-let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
+let g:which_key_map['/'] = [ '<Plug>NERDCommenterToggle',   'comment' ]
+let g:which_key_map[';'] = [ ':Commands',                   'commands' ]
+let g:which_key_map['e'] = [ ':CocCommand explorer',        'explorer' ]
+let g:which_key_map['f'] = [ ':Files',                      'search files' ]
+let g:which_key_map['h'] = [ '<C-W>s',                      'split below']
+let g:which_key_map['r'] = [ ':Ranger',                     'ranger' ]
+let g:which_key_map['s'] = [ ':Startify',                   'start screen' ]
+let g:which_key_map['S'] = [ ':SSavae',                     'save the sesson']
+let g:which_key_map['T'] = [ ':Rg',                         'search text' ]
+let g:which_key_map['v'] = [ '<C-W>v',                      'split right']
+let g:which_key_map['z'] = [ 'Goyo',                        'zen' ]
 
 " s is for search
 let g:which_key_map.s = {
@@ -65,20 +67,51 @@ let g:which_key_map.s = {
 " t is for floaterm
 let g:which_key_map.t = {
       \ 'name' : '+terminal' ,
-      \ ';' : [':FloatermNew --wintype=popup --height=6'        , 'terminal'],
-      \ 'f' : [':FloatermNew fzf'                               , 'fzf'],
-      \ 'g' : [':FloatermNew lazygit'                           , 'git'],
-      \ 'd' : [':FloatermNew lazydocker'                        , 'docker'],
-      \ 'n' : [':FloatermNew node'                              , 'node'],
-      \ 'N' : [':FloatermNew nnn'                               , 'nnn'],
-      \ 'p' : [':FloatermNew python'                            , 'python'],
-      \ 'j' : [':FloatermNew jshell'                            , 'jshell'],
-      \ 'r' : [':FloatermNew ranger'                            , 'ranger'],
-      \ 't' : [':FloatermToggle'                                , 'toggle'],
-      \ 'h' : [':FloatermNew htop'                              , 'htop'],
-      \ 'b' : [':FloatermNew bpytop'                            , 'bpytop'],
-      \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
+      \ ';' : [':FloatermNew --wintype=popup --height=6',         'terminal'],
+      \ 'f' : [':FloatermNew fzf',                                'fzf'],
+      \ 'g' : [':FloatermNew lazygit',                            'lazygit'],
+      \ 'd' : [':FloatermNew lazydocker',                         'docker'],
+      \ 'n' : [':FloatermNew node',                               'node'],
+      \ 'N' : [':FloatermNew nnn',                                'nnn'],
+      \ 'p' : [':FloatermNew python',                             'python'],
+      \ 'j' : [':FloatermNew jshell',                             'jshell'],
+      \ 'r' : [':FloatermNew ranger',                             'ranger'],
+      \ 't' : [':FloatermToggle',                                 'toggle'],
+      \ 'h' : [':FloatermNew htop',                               'htop'],
+      \ 'b' : [':FloatermNew bpytop',                             'bpytop'],
+      \ 's' : [':FloatermNew ncdu',                               'ncdu'],
       \ }
+
+" a is for actions
+let g:which_key_map.a = {
+            \ 'name' : '+actions',
+            \ 'c' : ['ColorizerToggle',         'colorizer-toggle'],
+            \ 'e' : ['CocCommand explorer',     'explorer'],
+            \ 'n' : [':set number!',            'toggle line number'],
+            \ 'r' : [':set relatvenumber!',     'toggle relatve line number'],
+            \ 't' : [':FloatermToggle',         'toggle terminal'],
+            \ }
+
+" b is for buffer
+let g:which_key_map.b = {
+            \ 'name' : '+buffer',
+            \ '1' : [ 'b1',                     'Buffer 1'],
+            \ '2' : [ '2',                      'Buffer 2'],
+            \ 'd' : [ 'bd',                     'delete-buffer'],
+            \ 'h' : [ 'Startify',               'home screen' ],
+            \ 'f' : [ 'bfirst',                 'firt-buffer'],
+            \ 'l' : [ 'blast',                  'last-buffer'],
+            \ 'n' : [ 'bnext',                  'next-buffer' ],
+            \ 'p' : [ 'bprevious',              'previous-buffer' ],
+            \ '?' : [ 'Buffers',                'fzf-buffers' ],
+            \ }
+
+" l is for language server protocole
+let g:which_key_map.l = {
+            \ 'name' : '+lsp',
+            \ '.' : [':CocConfig'                             , 'config file'],
+            \ ';' : ['<Plug>',                                , ''],
+            \ }
 
 " Register which key map
 call which_key#register('<Space>', "g:which_key_map")
