@@ -27,7 +27,7 @@
 - [gv.vim](https://github.com/junegunn/gv.vim) A git commit browser in Vim
 - [quick-scope](https://github.com/unblevable/quick-scope) Lightning fast left-right movement in Vim
 - [vim-which-key](https://github.com/liuchengxu/vim-which-key) Vim plugin that shows keybindings in popup
-
+- [vim-floaterm](https://github.com/voldikss/vim-floaterm)  
 
 
 > The plugins list in [vim-plug/plugins.vim](./vim-plug/plugins.vim),

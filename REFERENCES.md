@@ -9,4 +9,5 @@
 - [Git integration](https://www.chrisatmachine.com/blog/category/neovim/12-git-integration)
 - [Quickscope](https://www.chrisatmachine.com/blog/category/neovim/14-quickscope)
 - [Which Key](https://www.chrisatmachine.com/blog/category/neovim/15-which-key)
+- [Floaterm](https://www.chrisatmachine.com/blog/category/neovim/16-floaterm)
 

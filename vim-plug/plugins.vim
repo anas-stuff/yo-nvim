@@ -45,5 +45,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'unblevable/quick-scope'
     " Which key
     Plug 'liuchengxu/vim-which-key'
+    " Floaterm
+    Plug 'voldikss/vim-floaterm'
 call plug#end()
 

@@ -1,6 +1,6 @@
 " Map leader to which_key
-nnoremap <silent> <leader> :silent WhichKey '<Space>'<CR>
-vnoremap <silent> <leader> :silent <c-u> :silent WhichKeyVisual '<Space>'<CR>
+nnoremap <silent> <leader> :silent WhichKeyVisual '<Space>'<CR>
+" vnoremap <silent> <leader> :silent <c-u> :silent WhichKeyVisual '<Space>'<CR>
 
 " Create map to add keys to
 let g:which_key_map =  {}
@@ -56,12 +56,30 @@ let g:which_key_map.s = {
       \ 'P' : [':Tags'         , 'project tags'],
       \ 's' : [':Snippets'     , 'snippets'],
       \ 'S' : [':Colors'       , 'color schemes'],
-      \ 't' : [':Rg'           , 'text Rg'],
       \ 'T' : [':BTags'        , 'buffer tags'],
       \ 'w' : [':Windows'      , 'search windows'],
       \ 'y' : [':Filetypes'    , 'file types'],
       \ 'z' : [':FZF'          , 'FZF'],
       \ }
 
+" t is for floaterm
+let g:which_key_map.t = {
+      \ 'name' : '+terminal' ,
+      \ ';' : [':FloatermNew --wintype=popup --height=6'        , 'terminal'],
+      \ 'f' : [':FloatermNew fzf'                               , 'fzf'],
+      \ 'g' : [':FloatermNew lazygit'                           , 'git'],
+      \ 'd' : [':FloatermNew lazydocker'                        , 'docker'],
+      \ 'n' : [':FloatermNew node'                              , 'node'],
+      \ 'N' : [':FloatermNew nnn'                               , 'nnn'],
+      \ 'p' : [':FloatermNew python'                            , 'python'],
+      \ 'j' : [':FloatermNew jshell'                            , 'jshell'],
+      \ 'r' : [':FloatermNew ranger'                            , 'ranger'],
+      \ 't' : [':FloatermToggle'                                , 'toggle'],
+      \ 'h' : [':FloatermNew htop'                              , 'htop'],
+      \ 'b' : [':FloatermNew bpytop'                            , 'bpytop'],
+      \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
+      \ }
+
 " Register which key map
 call which_key#register('<Space>', "g:which_key_map")
+
