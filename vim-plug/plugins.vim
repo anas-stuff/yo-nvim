@@ -47,5 +47,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vim-which-key'
     " Floaterm
     Plug 'voldikss/vim-floaterm'
+    " Codi
+    " Plug 'metakirby5/codi.vim'
 call plug#end()
 

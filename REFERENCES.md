@@ -1,4 +1,5 @@
 # The references
+
 - [Neovim Intellisense with coc](https://www.chrisatmachine.com/blog/category/neovim/04-vim-coc)
 - [Integrate Neovim with Ranger](https://www.chrisatmachine.com/blog/category/neovim/07-ranger)
 - [Integrate Neovim with FZF & more](https://www.chrisatmachine.com/blog/category/neovim/08-fzf)
@@ -10,4 +11,4 @@
 - [Quickscope](https://www.chrisatmachine.com/blog/category/neovim/14-quickscope)
 - [Which Key](https://www.chrisatmachine.com/blog/category/neovim/15-which-key)
 - [Floaterm](https://www.chrisatmachine.com/blog/category/neovim/16-floaterm)
-
+- [Codi - An Interactive Scratchpad for Hackers](https://www.chrisatmachine.com/blog/category/neovim/18-codi)
