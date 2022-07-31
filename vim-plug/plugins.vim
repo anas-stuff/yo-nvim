@@ -43,5 +43,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     " Quick scope
     Plug 'unblevable/quick-scope'
-
+    " Which key
+    Plug 'liuchengxu/vim-which-key'
 call plug#end()
+
