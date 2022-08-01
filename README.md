@@ -1,5 +1,7 @@
 # My neo vim configs 🥰
 
+![startfy screenshot](./Screenshots/startify_0.0.1.png)
+
 ## Plugins
 
 > The plugin manager is [vim-plug](https://github.com/junegunn/vim-plug)
