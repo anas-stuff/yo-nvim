@@ -57,5 +57,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'github/copilot.vim'
     " auto save
     Plug '907th/vim-auto-save'
+    " indent blankline
+    Plug 'Yggdroot/indentLine'
 call plug#end()
 

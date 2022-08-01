@@ -13,7 +13,7 @@ source $HOME/.config/nvim/plug-config/quick-scope.vim
 source $HOME/.config/nvim/plug-config/floaterm.vim
 source $HOME/.config/nvim/plug-config/copilot.vim
 source $HOME/.config/nvim/plug-config/auto-save.vim
+source $HOME/.config/nvim/plug-config/wich-key.vim
+source $HOME/.config/nvim/plug-config/indent-line.vim
 
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
-
-source $HOME/.config/nvim/plug-config/wich-key.vim
