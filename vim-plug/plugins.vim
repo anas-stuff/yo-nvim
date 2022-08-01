@@ -55,5 +55,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     " github copilot
     Plug 'github/copilot.vim'
+    " auto save
+    Plug '907th/vim-auto-save'
 call plug#end()
 

@@ -12,6 +12,7 @@ source $HOME/.config/nvim/plug-config/signify.vim
 source $HOME/.config/nvim/plug-config/quick-scope.vim
 source $HOME/.config/nvim/plug-config/floaterm.vim
 source $HOME/.config/nvim/plug-config/copilot.vim
+source $HOME/.config/nvim/plug-config/auto-save.vim
 
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 
