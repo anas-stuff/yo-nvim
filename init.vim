@@ -11,6 +11,7 @@ source $HOME/.config/nvim/plug-config/startify.vim
 source $HOME/.config/nvim/plug-config/signify.vim
 source $HOME/.config/nvim/plug-config/quick-scope.vim
 source $HOME/.config/nvim/plug-config/floaterm.vim
+source $HOME/.config/nvim/plug-config/copilot.vim
 
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 
