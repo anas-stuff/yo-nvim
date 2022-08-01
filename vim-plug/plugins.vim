@@ -53,5 +53,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'arzg/vim-colors-xcode'
     " Nvim Treesitter configurations and abstraction layer
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    " github copilot
+    Plug 'github/copilot.vim'
 call plug#end()
 
