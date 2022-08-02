@@ -59,5 +59,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug '907th/vim-auto-save'
     " indent blankline
     Plug 'Yggdroot/indentLine'
+    " Commenter
+    Plug 'preservim/nerdcommenter'
 call plug#end()
 

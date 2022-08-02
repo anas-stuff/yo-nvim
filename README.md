@@ -34,6 +34,7 @@
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) Nvim Treesitter configurations and abstraction layer
 - [copilot.vim](https://github.com/github/copilot.vim) Neovim plugin for GitHub Copilot
 - [vim-auto-save](https://github.com/907th/vim-auto-save) A Vim plugin which saves files to disk automatically.
+- [NERD Commenter](https://github.com/preservim/nerdcommenter) Vim plugin for intensely nerdy commenting powers
 
 
 > The plugins list in [vim-plug/plugins.vim](./vim-plug/plugins.vim),
