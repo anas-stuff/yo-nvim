@@ -69,3 +69,4 @@
 | ctrl + o        | n/a                         | Restory the buffers                   |
 | leader + gj     | `<plug>(signify-next-hunk)` | Jump to the next hunk                 |
 | leader + gk     | `<plug>(signify-prev-hunk)` | Jump to the previous hunk             |
+| <F6>            | ``let mouse=a``  or `let mouse=` | Enables and disable the mouse        |
