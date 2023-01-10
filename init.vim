@@ -16,5 +16,6 @@ source $HOME/.config/nvim/plug-config/auto-save.vim
 source $HOME/.config/nvim/plug-config/wich-key.vim
 source $HOME/.config/nvim/plug-config/indent-line.vim
 source $HOME/.config/nvim/plug-config/nerdcommenter.vim
+source $HOME/.config/nvim/plug-config/magma.vim
 
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
